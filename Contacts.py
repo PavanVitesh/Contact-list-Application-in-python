@@ -20,7 +20,7 @@ def delete(idx):
         l=c.readlines()
         del l[idx]
     with open("Contact.csv","w") as c:
-        print(*l,file=c,sep="\n",end="")
+        print(*l,file=c)
         
 #main program a menu driven coode
 while 1:
